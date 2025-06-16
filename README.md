@@ -8,14 +8,13 @@
 - Add a PostgreSQL database (Neon)
 - https://console.neon.tech/app/projects/blue-mouse-29727917?database=neondb
 
-- Add DrizzleORM
+- Add DrizzleORM => npm i drizzle-orm@0.43.1 @neondatabase/serverless@1.0.0 dotenv@16.5.0 --legacy-peer-deps
+                 => npm i -D drizzle-kit@0.31.1 tsx@4.19.4 --legacy-peer-deps
 
 - Add Schema
-- Push schema
+- Push schema => npx drizzle-kit push
 - Verify changes in Neon
-- Verify changes in Drizzle Studio
-
-- Create, review & merge pull request
+- Verify changes in Drizzle Studio =>  npx drizzle-kit studio
 
 Key features:
 🤖 AI-powered video calls
